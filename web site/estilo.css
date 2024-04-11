@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    margin:0;
+    width: auto;
+    height: 1000vh;
+  }
+  h1{
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    display: table-cell;
+  
+  }
+    header{
+    background-color: #9f37b9;
+    height: 150px;
+    width: auto;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  main{
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(174, 154, 192);
+  }
+  .container img{
+  width: 50%;
+  height: auto;
+  margin-left: 60px;
+  }
+  .container, P{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+  }
+  p{
+    margin-left: 20px;
+    margin-right: 10%;
+  }
+  .p1{
+    font-size: 40%;
+    color: rgb(23, 24, 9);
+    margin-top: 8%;
+    text-align: center;
+  }
+  .info{
+    display: block;
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+    margin: 15px;
+    overflow: hidden;
+  }
+  .info img{
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    margin-top: 60%;
+  }
+  section{
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(174, 154, 192);}
+  h3{ 
+    font-size: 1.2em;
+    color: rgb(23, 24, 9);
+    margin-top: 8%;
+    text-align: center;
+    margin-left: 28px;
+    margin-right: 10%;
+    font-weight: normal;
+  }
+  .fot{
+    display: block;
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+    margin: 15px;
+    overflow: hidden;
+    margin-left: 15px;
+  }
+  .fot img{
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 90px;
+  }
+  .jj{
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+  .mais{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+  }
+  nav{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(174, 154, 192);
+    width:100vw;
+    height:50vh;
+    align-items:center;
+  }
+  .mais img{
+    object-fit:cover;
+    max-width:100%;
+    height:200px;
+    width:200px;
+    margin-right: 45%;
+    align-items: center;
+    margin-left:62% ;
+  }
+  footer{
+    background-color:#9f37b9;
+    color:white;
+    padding:20px;
+    text-align:center;
+  }
+  #linha{
+  width: 100%;
+  border-bottom: 1px solid #000000;
+  margin-top: 10px;
+  }
+ @media (max-width: 768px)
+{nav{
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(174, 154, 192);
+    object-fit: cover;
+}}
+@media (max-width: 576px)
+{nav{
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(174, 154, 192);
+    object-fit: cover;
+}}
